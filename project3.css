@@ -1,0 +1,33 @@
+body{
+        background-color: aquamarine;
+    }
+    form{
+        text-align: center;
+        background-color: rgb(142, 187, 187);
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+     h2{
+        text-align: center;
+        background-color:rgb(142, 187, 187);
+        margin-left: 250px;
+        margin-right: 250px;
+     }
+     label{
+        display: block;
+       
+     }
+     input[type=text],
+     input[type=tel],
+     input[type=email],
+     textarea,select{
+        border-radius: 10px;
+     }
+     input[type=submit]{
+background-color: rgb(5, 136, 202);
+cursor: pointer;
+     }
+     input[type=submit]:hover{
+        background-color: rgb(136, 42, 165);
+     }
+     

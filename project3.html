@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="project3.css">
+</head>
+    <body>
+        
+        <form action="https://formspree.io/f/mvojnreb" method="post">
+            <h2>REGISTRATION FORM</h2>
+            <label>Name</label>
+            <input type="text" name="name" required>
+            <label>Email</label>
+            <input type="email" email="email" required>
+            <label>Phone Number</label>
+            <input type="tel" phoneNumber="phoneNumber" required>
+            <label for="birthday">Birthdate:</label>
+ <input type="date" id="birthday" name="birthday"> 
+            <label>gender</label>
+            <select>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+            <label>fav_language</label>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+ <label for="html">HTML</label><br>
+ <input type="radio" id="css" name="fav_language" value="CSS">
+ <label for="css">CSS</label><br>
+ <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+ <label for="javascript">JavaScript</label> 
+            <label for="favcolor">Select your favoritecolor:</label>
+ <input type="color" id="favcolor" name="favcolor"> 
+ <label for="vol">range of coding skils:</label>
+ <input type="range" id="vol" name="vol" min="0" max="50"><br>
+ <div>
+    <input type="checkbox" id="subject1" name=" subject1" value="Tamil">
+        <label for=" subject1"> I know Tamil </label><br>
+ <input type="checkbox" id=" subject2" name=" subject2" value="Telugu">
+ <label for=" subject2"> I know Telugu</label><br>
+ <input type="checkbox" id=" subject3" name=" subject3" value=" English ">
+ <label for=" subject3"> I know Telugu</label>
+    </div>
+ 
+            <label>Zipcode</label>
+            <input type="text" zipcode="zipcode" required><br>
+            <label for="myfile">upload documents:</label>
+ <input type="file" id="myfile" name="myfile">
+            <label>About</label>
+            <textarea name="about"></textarea>
+            <label>Submit</label>
+            <input type="submit" value="register">
+            <form action="/action_page.php">
+                <input type="reset"><br>
+                <input type="image" src="pro.jpeg" alt="image" width="100" height="100"> 
+        </form>
+    </body>
+    </html>
